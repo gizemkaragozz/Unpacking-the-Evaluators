@@ -1,5 +1,5 @@
-# Unpacking-the-Evaluators
-Unpacking the Evaluators: How Configuration Shapes the Evaluation of Alignment in Explainable AI
+# Unpacking-the-Evaluators: How Configuration Shapes the Evaluation of Alignment in Explainable AI
+
 
 ## Synthetic Dataset Generation Code
 
