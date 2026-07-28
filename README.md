@@ -201,9 +201,3 @@ ranks. With `--figures`, these tables also generate alignment heatmaps,
 formulation rank-shift plots, BMR–LE plots, and soft/hard Sankey diagrams.
 The heatmaps display raw mean alignment scores; metric direction is represented
 by color-map orientation rather than by transforming the displayed values.
-
-## Tests
-
-```bash
-pytest
-```
