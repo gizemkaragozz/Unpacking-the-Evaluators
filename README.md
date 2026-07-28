@@ -1,9 +1,10 @@
 # Unpacking the Evaluators
 
-This repository provides the implementation used to generate the synthetic data,
-prepare the four predictive models, construct ground-truth (GT) representations,
-characterize attribution maps, compute XAI–GT spatial alignment scores, and
-reproduce the ranking analyses.
+This repository contains the reproducibility code accompanying the paper
+*Unpacking the Evaluators*. It provides the implementation used to generate the
+synthetic data, prepare the four predictive models, construct ground-truth (GT)
+representations, characterize attribution maps, compute XAI–GT spatial alignment
+scores, and reproduce the ranking analyses.
 
 
 ## Structure
