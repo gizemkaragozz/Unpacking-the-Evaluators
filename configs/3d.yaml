@@ -1,0 +1,32 @@
+descriptors:
+  support_threshold: 0.10
+  patch_size: [16, 16, 8]
+
+ground_truth:
+  point:
+    method: rounded_centroid
+    radius: 1
+    connectivity: 6
+
+explanations:
+  methods: [GC, GGC, IG, SL]
+  library: captum
+  library_version: "0.7.0"
+  target: evaluated_class
+  gradcam_layer: final_convolution
+  integrated_gradients_baseline: zero
+  integrated_gradients_steps: 32
+
+alignment:
+  metrics: [iou, pg, epg, ber, distance]
+  soft_pg_alpha: 4.0
+  thresholds:
+    [0.01, 0.05, 0.10, 0.15, 0.20, 0.30, 0.50, 0.75, 0.90, 1.00]
+
+analysis:
+  metrics: [iou, pg, epg, ber, distance]
+  hard_threshold: 0.10
+  top_gt: 2
+  top_metrics: 2
+  bootstrap_iterations: 1000
+  seed: 42
