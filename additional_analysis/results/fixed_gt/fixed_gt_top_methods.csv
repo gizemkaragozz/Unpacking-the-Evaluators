@@ -1,0 +1,33 @@
+dataset,formulation,gt_type,method,mean_z_score,n_metrics,conditional_rank
+BRISC2025,hard,bbox,GC,1.20575889920602,4,1
+BRISC2025,hard,boundary,GC,1.0707925943534926,4,1
+BRISC2025,hard,point,GC,0.8194006720848745,4,1
+BRISC2025,hard,region,GC,1.2122142698130303,4,1
+BRISC2025,soft,bbox,GGC,1.1078659909264899,4,1
+BRISC2025,soft,boundary,GGC,1.473102051474433,4,1
+BRISC2025,soft,point,GGC,1.3992096473316002,4,1
+BRISC2025,soft,region,GGC,1.2362789893854522,4,1
+MosMedData,hard,bbox,SL,0.8617833790461644,4,1
+MosMedData,hard,boundary,SL,0.8855380908027841,4,1
+MosMedData,hard,point,SL,0.265281752849312,4,1
+MosMedData,hard,region,SL,1.0769887561970595,4,1
+MosMedData,soft,bbox,SL,0.48593200115100943,4,1
+MosMedData,soft,boundary,SL,1.0810270311711592,4,1
+MosMedData,soft,point,SL,1.062168162444009,4,1
+MosMedData,soft,region,SL,1.0853554239458936,4,1
+Synthetic 2D,hard,bbox,GC,0.7571817034101677,4,1
+Synthetic 2D,hard,boundary,GGC,1.0079520775344504,4,1
+Synthetic 2D,hard,point,IG,0.8099854495052131,4,1
+Synthetic 2D,hard,region,IG,0.8695155030980976,4,1
+Synthetic 2D,soft,bbox,GGC,0.5373835177923614,4,1
+Synthetic 2D,soft,boundary,GGC,1.016272108316699,4,1
+Synthetic 2D,soft,point,IG,0.7674044874643321,4,1
+Synthetic 2D,soft,region,IG,0.8222620311135801,4,1
+Synthetic 3D,hard,bbox,GC,0.9208992136636657,4,1
+Synthetic 3D,hard,boundary,GGC,0.8895604755948511,4,1
+Synthetic 3D,hard,point,GC,1.3129432351194747,4,1
+Synthetic 3D,hard,region,GC,0.9183086141528265,4,1
+Synthetic 3D,soft,bbox,IG,0.6911489329546721,4,1
+Synthetic 3D,soft,boundary,IG,1.3985002921206293,4,1
+Synthetic 3D,soft,point,GC,0.9188407031100289,4,1
+Synthetic 3D,soft,region,IG,1.0105762430379621,4,1

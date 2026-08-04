@@ -1,0 +1,129 @@
+dataset,formulation,gt_type,method,mean_z_score,n_metrics,conditional_rank
+BRISC2025,hard,bbox,GC,1.20575889920602,4,1
+BRISC2025,hard,bbox,GGC,0.2990204104388378,4,2
+BRISC2025,hard,bbox,SL,-0.6254452593309437,4,3
+BRISC2025,hard,bbox,IG,-0.8793340503139135,4,4
+BRISC2025,hard,boundary,GC,1.0707925943534926,4,1
+BRISC2025,hard,boundary,GGC,0.4626174700152957,4,2
+BRISC2025,hard,boundary,SL,-0.6418190754957953,4,3
+BRISC2025,hard,boundary,IG,-0.8915909888729933,4,4
+BRISC2025,hard,point,GC,0.8194006720848745,4,1
+BRISC2025,hard,point,GGC,0.397434539293816,4,2
+BRISC2025,hard,point,SL,-0.3834549893951511,4,3
+BRISC2025,hard,point,IG,-0.8333802219835398,4,4
+BRISC2025,hard,region,GC,1.2122142698130303,4,1
+BRISC2025,hard,region,GGC,0.28725450373449773,4,2
+BRISC2025,hard,region,SL,-0.6392286144801865,4,3
+BRISC2025,hard,region,IG,-0.8602401590673416,4,4
+BRISC2025,soft,bbox,GGC,1.1078659909264899,4,1
+BRISC2025,soft,bbox,GC,0.2096539625260493,4,2
+BRISC2025,soft,bbox,SL,-0.5119395946181706,4,3
+BRISC2025,soft,bbox,IG,-0.8055803588343684,4,4
+BRISC2025,soft,boundary,GGC,1.473102051474433,4,1
+BRISC2025,soft,boundary,SL,-0.38723971471901436,4,2
+BRISC2025,soft,boundary,GC,-0.4960993370380186,4,3
+BRISC2025,soft,boundary,IG,-0.5897629997173998,4,4
+BRISC2025,soft,point,GGC,1.3992096473316002,4,1
+BRISC2025,soft,point,SL,-0.298955227812786,4,2
+BRISC2025,soft,point,GC,-0.44418990827058014,4,3
+BRISC2025,soft,point,IG,-0.6560645112482344,4,4
+BRISC2025,soft,region,GGC,1.2362789893854522,4,1
+BRISC2025,soft,region,GC,0.12915593806416287,4,2
+BRISC2025,soft,region,SL,-0.533570677794301,4,3
+BRISC2025,soft,region,IG,-0.8318642496553137,4,4
+MosMedData,hard,bbox,SL,0.8617833790461644,4,1
+MosMedData,hard,bbox,IG,0.5841600588644335,4,2
+MosMedData,hard,bbox,GGC,-0.22428525252733197,4,3
+MosMedData,hard,bbox,GC,-1.2216581853832658,4,4
+MosMedData,hard,boundary,SL,0.8855380908027841,4,1
+MosMedData,hard,boundary,GGC,-0.045349828606614684,4,2
+MosMedData,hard,boundary,IG,-0.3741584341994272,4,3
+MosMedData,hard,boundary,GC,-0.46602982799674086,4,4
+MosMedData,hard,point,SL,0.265281752849312,4,1
+MosMedData,hard,point,GC,0.13518085560360105,4,2
+MosMedData,hard,point,GGC,0.03938663954097418,4,3
+MosMedData,hard,point,IG,-0.4398492479938877,4,4
+MosMedData,hard,region,SL,1.0769887561970595,4,1
+MosMedData,hard,region,IG,-0.1383950271703791,4,2
+MosMedData,hard,region,GGC,-0.2216197049501742,4,3
+MosMedData,hard,region,GC,-0.7169740240765053,4,4
+MosMedData,soft,bbox,SL,0.48593200115100943,4,1
+MosMedData,soft,bbox,IG,0.30033674321383863,4,2
+MosMedData,soft,bbox,GGC,-0.08169499057565599,4,3
+MosMedData,soft,bbox,GC,-0.7045737537891923,4,4
+MosMedData,soft,boundary,SL,1.0810270311711592,4,1
+MosMedData,soft,boundary,IG,0.4253144377820173,4,2
+MosMedData,soft,boundary,GGC,-0.49338420035489505,4,3
+MosMedData,soft,boundary,GC,-1.0129572685982813,4,4
+MosMedData,soft,point,SL,1.062168162444009,4,1
+MosMedData,soft,point,IG,0.4044680639948643,4,2
+MosMedData,soft,point,GGC,-0.6805424154665608,4,3
+MosMedData,soft,point,GC,-0.7860938109723113,4,4
+MosMedData,soft,region,SL,1.0853554239458936,4,1
+MosMedData,soft,region,IG,0.4186446958367226,4,2
+MosMedData,soft,region,GGC,-0.47613324172719,4,3
+MosMedData,soft,region,GC,-1.0278668780554263,4,4
+Synthetic 2D,hard,bbox,GC,0.7571817034101677,4,1
+Synthetic 2D,hard,bbox,IG,0.3315651906779715,4,2
+Synthetic 2D,hard,bbox,GGC,0.28714464738827256,4,3
+Synthetic 2D,hard,bbox,SL,-1.375891541476411,4,4
+Synthetic 2D,hard,boundary,GGC,1.0079520775344504,4,1
+Synthetic 2D,hard,boundary,IG,0.054358745357827726,4,2
+Synthetic 2D,hard,boundary,GC,0.005311735761936831,4,3
+Synthetic 2D,hard,boundary,SL,-1.0676225586542147,4,4
+Synthetic 2D,hard,point,IG,0.8099854495052131,4,1
+Synthetic 2D,hard,point,GC,0.3372570472678022,4,2
+Synthetic 2D,hard,point,GGC,-0.3913226663468728,4,3
+Synthetic 2D,hard,point,SL,-0.7559198304261421,4,4
+Synthetic 2D,hard,region,IG,0.8695155030980976,4,1
+Synthetic 2D,hard,region,GC,0.44195867000271394,4,2
+Synthetic 2D,hard,region,GGC,-0.05832592302854228,4,3
+Synthetic 2D,hard,region,SL,-1.253148250072269,4,4
+Synthetic 2D,soft,bbox,GGC,0.5373835177923614,4,1
+Synthetic 2D,soft,bbox,IG,0.24476898450514167,4,2
+Synthetic 2D,soft,bbox,GC,0.05672072871626116,4,3
+Synthetic 2D,soft,bbox,SL,-0.838873231013764,4,4
+Synthetic 2D,soft,boundary,GGC,1.016272108316699,4,1
+Synthetic 2D,soft,boundary,IG,0.6837714577115332,4,2
+Synthetic 2D,soft,boundary,GC,-0.8100388580193028,4,3
+Synthetic 2D,soft,boundary,SL,-0.8900047080089295,4,4
+Synthetic 2D,soft,point,IG,0.7674044874643321,4,1
+Synthetic 2D,soft,point,GC,0.4783057495477594,4,2
+Synthetic 2D,soft,point,GGC,-0.39764380541137856,4,3
+Synthetic 2D,soft,point,SL,-0.8480664316007127,4,4
+Synthetic 2D,soft,region,IG,0.8222620311135801,4,1
+Synthetic 2D,soft,region,GGC,0.1006436760845581,4,2
+Synthetic 2D,soft,region,GC,0.015609597557864736,4,3
+Synthetic 2D,soft,region,SL,-0.9385153047560031,4,4
+Synthetic 3D,hard,bbox,GC,0.9208992136636657,4,1
+Synthetic 3D,hard,bbox,GGC,0.6284562548115498,4,2
+Synthetic 3D,hard,bbox,SL,-0.6277568295820377,4,3
+Synthetic 3D,hard,bbox,IG,-0.9215986388931787,4,4
+Synthetic 3D,hard,boundary,GGC,0.8895604755948511,4,1
+Synthetic 3D,hard,boundary,GC,0.23688075410376075,4,2
+Synthetic 3D,hard,boundary,SL,-0.32266259497448213,4,3
+Synthetic 3D,hard,boundary,IG,-0.8037786347241297,4,4
+Synthetic 3D,hard,point,GC,1.3129432351194747,4,1
+Synthetic 3D,hard,point,GGC,-0.21984127958122882,4,2
+Synthetic 3D,hard,point,IG,-0.5231322325996166,4,3
+Synthetic 3D,hard,point,SL,-0.5699697229386292,4,4
+Synthetic 3D,hard,region,GC,0.9183086141528265,4,1
+Synthetic 3D,hard,region,GGC,0.40124701609407776,4,2
+Synthetic 3D,hard,region,IG,-0.5555891555098637,4,3
+Synthetic 3D,hard,region,SL,-0.7639664747370402,4,4
+Synthetic 3D,soft,bbox,IG,0.6911489329546721,4,1
+Synthetic 3D,soft,bbox,GC,0.45468426393517664,4,2
+Synthetic 3D,soft,bbox,GGC,-0.5558275451121083,4,3
+Synthetic 3D,soft,bbox,SL,-0.5900056517777402,4,4
+Synthetic 3D,soft,boundary,IG,1.3985002921206293,4,1
+Synthetic 3D,soft,boundary,GC,-0.31888042917426807,4,2
+Synthetic 3D,soft,boundary,SL,-0.5324453488450029,4,3
+Synthetic 3D,soft,boundary,GGC,-0.5471745141013581,4,4
+Synthetic 3D,soft,point,GC,0.9188407031100289,4,1
+Synthetic 3D,soft,point,IG,0.5826446504237996,4,2
+Synthetic 3D,soft,point,GGC,-0.6439270217284776,4,3
+Synthetic 3D,soft,point,SL,-0.8575583318053505,4,4
+Synthetic 3D,soft,region,IG,1.0105762430379621,4,1
+Synthetic 3D,soft,region,GC,0.2682491443264773,4,2
+Synthetic 3D,soft,region,GGC,-0.6127057099117073,4,3
+Synthetic 3D,soft,region,SL,-0.6661196774527323,4,4
