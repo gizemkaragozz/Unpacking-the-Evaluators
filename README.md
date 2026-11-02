@@ -16,9 +16,13 @@ scripts/analyze_alignment.py     Ranking and sensitivity analysis
 tests/                           Unit tests for the main computations
 xai_alignment/                   Reusable implementation
 xai_alignment/init_*.py          Data, training, and checkpoint interfaces
+additional_analysis/             Reviewer-requested sensitivity and conditional analyses
 2d_synthetic_data_generator.py   Synthetic 2D data generation
 3d_synthetic_data_generator.py   Synthetic 3D data generation
 ```
+
+The runnable reviewer analyses and their compact numerical outputs are documented
+in [`additional_analysis/`](additional_analysis/README.md).
 
 ## Installation
 
@@ -159,10 +163,9 @@ Use `configs/3d.yaml` for volumetric data.
 The metric names are read from the `alignment.metrics` and `analysis.metrics`
 lists. IoU, Pointing Game (PG), Energy-based Pointing Game (EPG), Background
 Energy Ratio (BER), and distance are implemented; any subset can be selected
-without changing the computation code. The supplied configuration includes BER
-to reproduce the submitted aggregation. Removing `ber` from
-`analysis.metrics` re-runs the aggregation with the remaining metrics while BER
-remains available in the descriptive score table.
+without changing the computation code. The supplied configuration retains BER
+in the descriptive score table and uses IoU, PG, EPG, and distance for the
+preference analyses.
 
 The distance family follows the study specification. Its hard formulation is
 symmetric boundary HD95: the 95th percentile of each directed boundary distance
@@ -202,3 +205,13 @@ ranks. With `--figures`, these tables also generate alignment heatmaps,
 formulation rank-shift plots, BMR–LE plots, and soft/hard Sankey diagrams.
 The heatmaps display raw mean alignment scores; metric direction is represented
 by color-map orientation rather than by transforming the displayed values.
+
+## Tests
+
+```bash
+pytest -q
+```
+
+The tests cover GT construction, descriptor definitions, metric formulations,
+configuration consistency, explanation wrappers, ranking analysis, sensitivity
+analysis, and the reviewer-requested conditional analyses.

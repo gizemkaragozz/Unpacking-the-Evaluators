@@ -24,7 +24,7 @@ alignment:
     [0.01, 0.05, 0.10, 0.15, 0.20, 0.30, 0.50, 0.75, 0.90, 1.00]
 
 analysis:
-  metrics: [iou, pg, epg, ber, distance]
+  metrics: [iou, pg, epg, distance]
   hard_threshold: 0.10
   top_gt: 2
   top_metrics: 2

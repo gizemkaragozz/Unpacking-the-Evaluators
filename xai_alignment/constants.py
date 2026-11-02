@@ -10,4 +10,4 @@ METRIC_DIRECTIONS = {
     "ber": -1,
     "distance": -1,
 }
-ANALYSIS_METRICS = ("iou", "pg", "epg", "ber", "distance")
+ANALYSIS_METRICS = ("iou", "pg", "epg", "distance")

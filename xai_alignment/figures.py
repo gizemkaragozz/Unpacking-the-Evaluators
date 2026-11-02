@@ -182,7 +182,7 @@ def plot_taxonomy(descriptors: pd.DataFrame, output_dir: str | Path) -> list[Pat
         axis.set_xlabel("Boundary Mass Ratio (BMR)")
         axis.set_ylabel("Local Entropy (LE)")
         axis.set_title(f"{dataset}: attribution-map behavior")
-        path = output / f"{dataset}_bmr_lse.png"
+        path = output / f"{dataset}_bmr_le.png"
         fig.savefig(path, dpi=300, bbox_inches="tight")
         plt.close(fig)
         paths.append(path)
