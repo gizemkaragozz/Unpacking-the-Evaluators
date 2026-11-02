@@ -24,3 +24,5 @@ def test_submitted_hard_threshold_set_is_used_in_both_dimensions():
             config = yaml.safe_load(handle)
         assert config["alignment"]["thresholds"] == EXPECTED_THRESHOLDS
         assert config["analysis"]["hard_threshold"] in EXPECTED_THRESHOLDS
+        assert config["alignment"]["metrics"] == ["iou", "pg", "epg", "ber", "distance"]
+        assert config["analysis"]["metrics"] == ["iou", "pg", "epg", "distance"]
